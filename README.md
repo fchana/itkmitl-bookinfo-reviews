@@ -1,4 +1,4 @@
-# How to run reviews service
+# How to run reviews service.
 
 ```bash
 /opt/ibm/wlp/bin/server run defaultServer
