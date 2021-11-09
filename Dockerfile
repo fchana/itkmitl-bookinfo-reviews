@@ -1,5 +1,5 @@
 # MULTISTAGE Build
-FROM gradle:latest
+FROM gradle:latest AS builder
 WORKDIR /opt/java/
 COPY . /opt/java/
 RUN gradle clean build
